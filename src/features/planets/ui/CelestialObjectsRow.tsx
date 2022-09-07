@@ -18,11 +18,11 @@ export const CelestialObjectsRow: FC<CelestialObjectsRowProps> = ({
   planet,
   moons,
   toogleMoon,
-  selectedMoonsCount: selectedMoons,
+  selectedMoonsCount,
 }) => {
   return (
     <div className="row">
-      <Planet title={planet.title} selectedMoonsCount={selectedMoons} />
+      <Planet title={planet.title} selectedMoonsCount={selectedMoonsCount} />
       {moons.map((moon) => {
         return <Moon key={moon.id} onClick={toogleMoon} {...moon} />;
       })}
