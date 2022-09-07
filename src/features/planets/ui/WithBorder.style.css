@@ -1,0 +1,10 @@
+.with-border {
+  border: 2px solid red;
+  padding: 5px;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  min-height: auto;
+}

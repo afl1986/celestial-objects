@@ -1,0 +1,8 @@
+.row {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-height: 130px;
+  height: 130px;
+}

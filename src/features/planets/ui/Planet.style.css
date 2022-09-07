@@ -1,0 +1,15 @@
+.planet {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: silver;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.moons-counter {
+  color: #cc5d1c;
+  margin-left: 5px;
+}
